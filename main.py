@@ -6,8 +6,8 @@ from twilio.rest import Client
 STOCK_NAME = "TSLA"
 COMPANY_NAME = "Tesla Inc"
 # Twilio account sid and authentification token
-TWILIO_ACCOUNT_SID= os.environ.get("ACCOUNT_SID_PILOW")
-TWILIO_AUTH_TOKEN=os.environ.get("AUTH_TOKEN_PILOW")
+TWILIO_ACCOUNT_SID= os.environ.get("ACCOUNT_SID_TWILIO")
+TWILIO_AUTH_TOKEN=os.environ.get("AUTH_TOKEN_TWILIO")
 
 # Virtual Twilio Number and Verified Twilio Number Environmental Variables
 VIRTUAL_TWILIO_NUMBER = os.environ.get("VIRTUAL_TWILIO_NUMBER")
